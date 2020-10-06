@@ -29,29 +29,29 @@
    <!-- <preference name="android-minSdkVersion" value="24" /> -->
    
        <platform name="android">
-        <icon src="res/icon/android/aztk1ldpi.png" qualifier="ldpi"/>
+        <icon src="resources/icon/android/aztk1ldpi.png" qualifier="ldpi"/>
        <!--  <icon src="res/icon/android/aztk1mdpi.png" qualifier="mdpi"/> -->
-         <icon src="res/icon/android/aztk1hdpi.png" qualifier="hdpi"/>
-        <icon src="res/icon/android/aztk1xhdpi.png" qualifier="xhdpi"/>
-        <icon src="res/icon/android/aztk1xxhdpi.png" qualifier="xxhdpi"/>
-        <icon src="res/icon/android/aztk1xxxhdpi.png" qualifier="xxxhdpi"/>
+         <icon src="resources/icon/android/aztk1hdpi.png" qualifier="hdpi"/>
+        <icon src="resources/icon/android/aztk1xhdpi.png" qualifier="xhdpi"/>
+        <icon src="resources/icon/android/aztk1xxhdpi.png" qualifier="xxhdpi"/>
+        <icon src="resources/icon/android/aztk1xxxhdpi.png" qualifier="xxxhdpi"/>
 
 
       </platform>
          
       <platform name="android">
-        <splash src="res/screen/android/land-hdpi-screen.png" qualifier="hdpi"/>
-        <splash src="res/screen/android/land-ldpi-screen.png" qualifier="ldpi"/>
-        <splash src="res/screen/android/land-mdpi-screen.png" qualifier="mdpi"/>
-        <splash src="res/screen/android/land-xhdpi-screen.png" qualifier="xhdpi"/>
+        <splash src="resources/screen/android/land-hdpi-screen.png" qualifier="hdpi"/>
+        <splash src="resources/screen/android/land-ldpi-screen.png" qualifier="ldpi"/>
+        <splash src="resources/screen/android/land-mdpi-screen.png" qualifier="mdpi"/>
+        <splash src="resources/screen/android/land-xhdpi-screen.png" qualifier="xhdpi"/>
       <!--  <splash src="res/screen/android/land-xxhdpi-screen.png" qualifier="xxhdpi"/> -->
-        <splash src="res/screen/android/land-xxxhdpi-screen.png" qualifier="xxxhdpi"/> 
-        <splash src="res/screen/android/port-ldpi-screen.png" qualifier="ldpi"/>
-        <splash src="res/screen/android/port-hdpi-screen.png" qualifier="hdpi"/>
-       <splash src="res/screen/android/port-mdpi-screen.png" qualifier="mdpi"/>
-        <splash src="res/screen/android/port-xhdpi-screen.png" qualifier="xhdpi"/>
-        <splash src="res/screen/android/port-xxhdpi-screen.png" qualifier="xxhdpi"/>
-        <splash src="res/screen/android/port-xxxhdpi-screen.png" qualifier="xxxhdpi"/> 
+        <splash src="resources/screen/android/land-xxxhdpi-screen.png" qualifier="xxxhdpi"/> 
+        <splash src="resources/screen/android/port-ldpi-screen.png" qualifier="ldpi"/>
+        <splash src="resources/screen/android/port-hdpi-screen.png" qualifier="hdpi"/>
+       <splash src="resources/screen/android/port-mdpi-screen.png" qualifier="mdpi"/>
+        <splash src="resources/screen/android/port-xhdpi-screen.png" qualifier="xhdpi"/>
+        <splash src="resources/screen/android/port-xxhdpi-screen.png" qualifier="xxhdpi"/>
+        <splash src="resources/screen/android/port-xxxhdpi-screen.png" qualifier="xxxhdpi"/> 
       </platform>
     
       <preference name="permissions" value="none"/>

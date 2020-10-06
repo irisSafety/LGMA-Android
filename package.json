@@ -3,9 +3,11 @@
   "version": "2.0.13",
   "description": "DEVELOP VERSION OF newapp",
   "main": "index.js",
- "scripts"{"test": "echo "Error: nio test specified"&& exit 1},
+  "scripts": {
+    "test": "test"
+  },
 
  "author": "foddsafetycts",
- "License"; "ISC"
+ "license": "ISC"
       },
  
