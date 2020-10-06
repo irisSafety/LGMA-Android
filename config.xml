@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+  xmlns:gap = "http://phonegap.com/ns/1.0"
+  id        = "com.foodsafetycts.cahwes"
+  android-versionCode="24"
+  version   = "1.0.8">
+    <name>CA LGMA English HandWashing</name>
+    <description>
+    Android
+</description>
+<author href="foodsafetycts.com" email="sergio@foodsafetycts.com">
+  Food Safety CTS
+</author> 
+ 
+  <platform name="android" />
+  <preference name="phonegap-version" value="cli-9.0.0" />
+  <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="Disallowsscroll" value="true"/>
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashScreenDelay" value="1200" />
+    <preference name="FadeSplashScreenDuration" value="200"/>
+
+    <!-- Android -->
+    <preference name="android-installLocation" value="auto"/>
+       <preference name="android-targetSdkVersion" value="28" />  
+   <!-- <preference name="android-minSdkVersion" value="24" /> -->
+   
+       <platform name="android">
+        <icon src="res/icon/android/aztk1ldpi.png" qualifier="ldpi"/>
+       <!--  <icon src="res/icon/android/aztk1mdpi.png" qualifier="mdpi"/> -->
+         <icon src="res/icon/android/aztk1hdpi.png" qualifier="hdpi"/>
+        <icon src="res/icon/android/aztk1xhdpi.png" qualifier="xhdpi"/>
+        <icon src="res/icon/android/aztk1xxhdpi.png" qualifier="xxhdpi"/>
+        <icon src="res/icon/android/aztk1xxxhdpi.png" qualifier="xxxhdpi"/>
+
+
+      </platform>
+         
+      <platform name="android">
+        <splash src="res/screen/android/land-hdpi-screen.png" qualifier="hdpi"/>
+        <splash src="res/screen/android/land-ldpi-screen.png" qualifier="ldpi"/>
+        <splash src="res/screen/android/land-mdpi-screen.png" qualifier="mdpi"/>
+        <splash src="res/screen/android/land-xhdpi-screen.png" qualifier="xhdpi"/>
+      <!--  <splash src="res/screen/android/land-xxhdpi-screen.png" qualifier="xxhdpi"/> -->
+        <splash src="res/screen/android/land-xxxhdpi-screen.png" qualifier="xxxhdpi"/> 
+        <splash src="res/screen/android/port-ldpi-screen.png" qualifier="ldpi"/>
+        <splash src="res/screen/android/port-hdpi-screen.png" qualifier="hdpi"/>
+       <splash src="res/screen/android/port-mdpi-screen.png" qualifier="mdpi"/>
+        <splash src="res/screen/android/port-xhdpi-screen.png" qualifier="xhdpi"/>
+        <splash src="res/screen/android/port-xxhdpi-screen.png" qualifier="xxhdpi"/>
+        <splash src="res/screen/android/port-xxxhdpi-screen.png" qualifier="xxxhdpi"/> 
+      </platform>
+    
+      <preference name="permissions" value="none"/>
+
+  <content src="index.html" />
+
+    <access origin="*" subdomains="true"/>
+   
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="whatsapp:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <platform name="android">
+    <allow-intent href="market:*"/>
+    </platform>
+
+
+</widget>
